@@ -44,6 +44,3 @@ def main() -> None:
         host=server_settings.server_host,
         port=server_settings.server_port,
     )
-
-
-main()
