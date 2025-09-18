@@ -1,4 +1,5 @@
 import argparse
+import logging
 
 import uvicorn
 from restconf_service.api.app_factory import create_app
@@ -15,6 +16,8 @@ def main() -> None:
     parser.add_argument('--config-path', help='Path to server config')
 
     args = parser.parse_args()
+
+    logging.basicConfig(level='INFO')
 
     server_settings = ServerSettings(_env_file=args.config_path)
 

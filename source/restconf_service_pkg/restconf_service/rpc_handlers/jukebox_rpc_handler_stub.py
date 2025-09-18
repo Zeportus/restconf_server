@@ -1,6 +1,9 @@
+import logging
 from typing import Annotated
 
 from pydantic import BaseModel, Field
+
+logger = logging.getLogger(__name__)
 
 
 class PlayArgs(BaseModel):
@@ -9,4 +12,4 @@ class PlayArgs(BaseModel):
 
 
 def play(args: PlayArgs) -> None:
-    print(f'Handle rpc "play" with args: {args}')
+    logger.info(f'Handle rpc "play" with args: {args}')
