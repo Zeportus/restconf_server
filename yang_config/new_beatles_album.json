@@ -1,0 +1,25 @@
+[
+    {
+      "name": "Random Access Memories",
+      "genre": "rock",
+      "year": 2013,
+      "admin": {
+        "label": "Columbia Records",
+        "catalogue-number": "88883716862"
+      },
+      "song": [
+        {
+          "name": "Get Lucky",
+          "location": "/music/daft_punk/ram/get_lucky.flac",
+          "format": "flac",
+          "length": 248
+        },
+        {
+          "name": "Instant Crush",
+          "location": "/music/daft_punk/ram/instant_crush.flac",
+          "format": "flac",
+          "length": 337
+        }
+      ]
+    }
+]
